@@ -1,0 +1,16 @@
+[package]
+name = "highlight-pulldown"
+version = "0.3.0"
+edition = "2021"
+license = "GPL-3.0-or-later"
+description = "Process pulldown-cmark events to apply syntax highlighting to code blocks"
+homepage = ""
+repository = "https://github.com/kitsunecafe/highlight-pulldown"
+keywords = ["markdown", "highlighter", "syntax-highlighting"]
+categories = ["text-processing"]
+documentation = ""
+
+[dependencies]
+syntect = "5.0.0"
+pulldown-cmark = "0.9.3"
+thiserror = "1.0.43"
